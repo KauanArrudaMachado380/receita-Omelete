@@ -20,8 +20,9 @@ body{
     background-color: var(--cor-de-fundo);
     font-size: 16px;
     height: 100vw;
-    font-family: var(--fonte-principal);
 }
+
+/* Container */
 
 .container{
     margin: 70px auto;
@@ -31,6 +32,8 @@ body{
     background-color: var(--cor-main);
     padding: 1.5em 2em;    
     border-radius: 10px;
+    color: var(--cor-texto);
+    font-family: var(--fonte-principal);
 }
 
 .container__imagem{
@@ -57,9 +60,7 @@ body{
     font-family: var(--fonte-titulo);
 }
 
-.container__texto{
-    font-family: var(--fonte-principal);
-}
+/* Bloco de Destaque */
 
 .container__bloco{
     background-color: var(--cor-fundo-destacado);
