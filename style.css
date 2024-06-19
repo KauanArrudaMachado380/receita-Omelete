@@ -109,34 +109,39 @@ body{
     margin: 1em;
 }
 
+.container__lista-instructions > li::marker{
+    color: var(--cor-destaque);
+}
+
 .container__bloco-calorias{
-    display: grid;
-    grid-template-columns: 40% 60%;
-    margin: 1em 0;
+    margin: 10px;
 }
 
-.bloco-calorias__nomes > li, .bloco-calorias__numeros > li{
-    margin-left: 2em;
+td{
+    padding-bottom: 13px;
 }
 
-.bloco-calorias__numeros > li {
+.bloco-calorias__numeros, .bloco-calorias__nomes{
+    padding: 15px 0;  
+}
+
+.col1, .col2{
+    border-bottom: 2px solid var(--cor-lista);
+}
+
+.bloco-calorias__nomes{
+    padding-left: 15px;
+}
+
+.bloco-calorias__numeros {
     color: var(--cor-sub-titulo);
     font-weight: bolder;
-    font-family: var(--fonte-principal);
 }
 
 hr{
     border-color: var(--cor-lista);
     width: 100%;
     margin: 1em 0;
-}
-
-.container__lista-instructions > li::marker{
-    color: var(--cor-destaque);
-}
-
-.bloco-calorias__nomes > hr {
-    width: 120%;
 }
 
 .rodape{
